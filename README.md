@@ -7,7 +7,7 @@ This is the Github repository for SemEval-2022 Task 5, Multimedia Automatic Miso
 
 Dataset, baselines and evaluation scripts are replicated as described by the authors of the paper "**_SemEval-2022 Task 5: Multimedia Automatic Misogyny Identification_" https://aclanthology.org/2022.semeval-1.74/** 
 
-##BASELINE
+## BASELINE
 
 ### Dataset 
 The data may be distributed upon request and for academic purposes only. To request the datasets, please fill out the following form: https://forms.gle/AGWMiGicBHiQx4q98
@@ -36,14 +36,14 @@ Additionally, experiment using BERT model in the file BERTBaseline.ipynb have be
 
 To run the baselines and compute the performance measure for each subtask, go into the directory where the structure has been set. Download the dataset and upload TRAINING and TEST folder in the baseline directory. Run the script and get the baselines.
 
-##Visual BERT: 
+## Visual BERT: 
 
 VisualBERTEmbeddings.ipynb: Embeddings get generated for the model
 VisualBERT_exp.ipynb: Training of model
 
 Code has been replicated from: https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification
 
-##CLIP
+## CLIP
 
 CLIP and HateCLIP: The base code has been taken from - https://github.com/TIBHannover/multimodal-misogyny-detection-mami-2022.
 CLIP : The file "mami_clip.ipynb"  contains the code for model and has been tweaked for our experiments.
