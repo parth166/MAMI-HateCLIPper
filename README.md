@@ -32,7 +32,11 @@ For Subtask B, the baselines are grounded on:
 
 The codefiles for the given baselines are taken using the github repo provided and the directory structures and computation of ground truth labels has been done by us.
 
-Additionally, experiment using BERT model in the file BERTBaseline.ipynb have been done by us which led us to experiment with visual BERT. Additionally, error analysis folder contains errorAnalysis.ipynb file which gives a quantitative analysis of the models with the dataset biases and the scripts have been used to get the required analysis results.
+Our own work: 
+1. Implementation of BERT model as an experimental baseline for text only model. BERTBaseline.ipynb
+2. Quantitative error analysis - errorAnalysis.ipynb
+
+Additionally, experiment using BERT model in the file BERTBaseline.ipynb have been done by us which led us to experiment with visual BERT.  Error analysis folder contains errorAnalysis.ipynb file which gives a quantitative analysis of the models with the dataset biases and the scripts have been used to get the required analysis results.
 
 To run the baselines and compute the performance measure for each subtask, go into the directory where the structure has been set. Download the dataset and upload TRAINING and TEST folder in the baseline directory. Run the script and get the baselines.
 
