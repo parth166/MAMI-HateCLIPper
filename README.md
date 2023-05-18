@@ -52,10 +52,11 @@ Code has been replicated from: https://github.com/mohamadhabash/VisualBERT-for-M
 CLIP and HateCLIP: The base code has been taken from - https://github.com/TIBHannover/multimodal-misogyny-detection-mami-2022.
 CLIP : The file "mami_clip.ipynb"  contains the code for model and has been tweaked for our experiments.
 
-Hate-CLIPper:  The "hateclipper.ipynb" contains the code for HateCLIPper model and has been finetuned for the downstream classification task. This is an extension of the  the CLIP model defined in "mami_clip.ipynb".
+Hate-CLIPper:  The "hateclipper.ipynb" contains the code for HateCLIPper model and has been finetuned for the downstream classification task. This is an extension of the the CLIP model defined in "mami_clip.ipynb". 
 
-Deep-Hate-CLIPper: The file "DeepHateCLIPper.ipynb" is a model architecture tweak building on the above Hate-CLIPper model by adding additional layers.
+Deep-Hate-CLIPper: The file "DeepHateCLIPper.ipynb" is a model architecture tweak building on the above Hate-CLIPper model by adding additional layers. This model is a piece of our own work and has not been referenced from any other public repository. 
 
+Both Hate-CLIPper and Deep-Hate-CLIPper models have never been executed on MAMI SemEval Database before and this is the first execution of these models over this dataset to the best of my knowledge. 
 
 ## Contacts
 If you have any question, please contact us at pvashisht@umass.edu
